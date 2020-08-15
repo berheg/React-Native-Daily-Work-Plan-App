@@ -5,8 +5,9 @@ import {
   StyleSheet,
   TextInput,
   TouchableOpacity,
+  DatePickerIOS,
 } from 'react-native';
-import DatePicker from 'react-native-date-picker';
+//import DatePicker from 'react-native-date-picker';
 //import Icon from 'react-native-vector-icons/dist/FontAwesome';
 
 const AddItem = ({addItem}) => {
@@ -22,9 +23,10 @@ const AddItem = ({addItem}) => {
         onChangeText={onChange}
         value={text}
       />
-      <DatePicker 
+       <DatePickerIOS
         date={date}
         onDateChange={setDate}
+        placeholder="Select Date"
       />
 
       
