@@ -47,6 +47,7 @@ const ListItem = ({
               name="save"
               size={20}
               color="green"
+              title="Save"
               onPress={() => saveEditItem(item.id, item.text)}
             />
           ) : (
@@ -55,11 +56,19 @@ const ListItem = ({
                 name="pencil"
                 size={20}
                 color="blue"
+                title="Edit"
                 onPress={() => editItem(item.id, item.text)}
               />
             )
           )}
-          </View>
+          <Button
+            name="remove"
+            size={20}
+            color="firebrick"
+            title="delete"
+            onPress={() => deleteItem(item.id)}
+          />          
+        </View>
       </View>
     </TouchableOpacity>
   );
