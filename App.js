@@ -9,19 +9,19 @@ import ListItem from './components/ListItem';
   const [items, setItems] = useState([
     {
       id: '1',
-      text: 'Milk',
+      text: 'Prepare daily plan',
     },
     {
       id: '2',
-      text: 'Eggs',
+      text: 'Manage routine',
     },
     {
       id: '3',
-      text: 'Bread',
+      text: 'Contact company',
     },
     {
       id: '4',
-      text: 'Juice',
+      text: 'Update work plan and get ready next plan',
     },
   ]);
 
