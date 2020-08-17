@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     iconView: {
       flexDirection: 'row',
       justifyContent: 'space-evenly',
-      width: 70,
+      
     },
     editItemInput: {
       padding: 0,
