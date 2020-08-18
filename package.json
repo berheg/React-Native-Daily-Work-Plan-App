@@ -22,5 +22,18 @@
     "@babel/core": "^7.8.6",
     "babel-preset-expo": "~8.1.0"
   },
-  "private": true
+  "private": true,
+  "name": "dailyplanapp",
+  "description": "Refernce: https://reactnative.dev/docs/environment-setup",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berheg/React-Native-Daily-Work-Plan-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berheg/React-Native-Daily-Work-Plan-App/issues"
+  },
+  "homepage": "https://github.com/berheg/React-Native-Daily-Work-Plan-App#readme"
 }
