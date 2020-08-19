@@ -25,6 +25,15 @@ import ListItem from './components/ListItem';
     },
   ]);
 
+  const  fetchDailyPlans = async () =>{
+    const response = await fetch(
+      `/api/dailyPlans`
+    );
+    const dailyPlans = await response.json();
+    console.log(dailyPlans);
+    return dailyPlans;  
+  }
+
   // Flag true if user is currently editing an item
   const [editStatus, editStatusChange] = useState(false);
 
